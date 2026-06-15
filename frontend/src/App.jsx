@@ -13,7 +13,7 @@ function App() {
     setLoading(true);
 
     const response = await axios.post(
-      "http://localhost:5000/api/generate",
+      "https://study-buddy-api-j56y.onrender.com/api/generate",
       {
         notes,
         difficulty,
